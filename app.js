@@ -1,3 +1,5 @@
+try {
+
 require('dotenv').config()
 const data = require('./quotes.json');
 
@@ -190,3 +192,9 @@ async function main() {
 }
 
 main().catch(err => console.log('App crashed: ' + err))
+
+
+} catch (error) {
+  console.log('error in big try-catch:')
+  console.log(error)
+}
