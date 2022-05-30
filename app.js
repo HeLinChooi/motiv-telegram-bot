@@ -178,4 +178,4 @@ async function main() {
   process.once('SIGTERM', () => bot.stop('SIGTERM'))
 }
 
-main()
+main().catch(err => console.log('App crashed: ' + err))
