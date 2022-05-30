@@ -10,6 +10,17 @@ const { MongoClient } = require('mongodb');
 const uri = process.env.URI;
 const client = new MongoClient(uri);
 
+// Listen only for Heroku deployment
+const port = process.env.PORT || 3000;
+var http = require('http');
+//create a server object:
+http.createServer(function (req, res) {
+  res.write('Hello World!'); //write a response
+  res.end(); //end the response
+}).listen(port, function(){
+ console.log(`server start at port ${port}`); //the server object listens on port 3000
+});
+
 async function getQuotes(ctx) {
   const result = await client.db("telegramUsers").collection("users").findOne({
     name: ctx.from.first_name,
