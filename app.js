@@ -121,7 +121,10 @@ async function main() {
 
   bot.command("/delete", async ctx => {
     const quotes = await getQuotes(ctx);
-    if (quotes.length === 0) ctx.reply("Your have no quote \n¯\\_(ツ)_/¯\nAdd one!")
+    if (quotes.length === 0) {
+      ctx.reply("Your have no quote \n¯\\_(ツ)_/¯\nAdd one!");
+      return;
+    }
     
     const indexStr = ctx.update.message.text.substring(8);
     const index = parseInt(indexStr);
