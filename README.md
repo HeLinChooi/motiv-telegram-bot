@@ -1,4 +1,4 @@
-# Movit
+# Motiv
 I am a telegram bot that save your favourite quotes and send them randomly when you need them. You can get some inspirational quotes from me too.
 
 Click [t.me/MotivUBot](https://t.me/MotivUBot) to start chatting with me!
