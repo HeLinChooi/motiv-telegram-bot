@@ -3,7 +3,7 @@ I am a telegram bot that save your favourite quotes and send them randomly when 
 
 Click [t.me/MotivUBot](https://t.me/MotivUBot) to start chatting with me!
 
-<div style="display: flex">
+<div style="display: flex;">
 <img src="./pic1.jpg" alt="Demo image 1" style="width: 100%;  height: auto;">
 <img src="./pic2.jpg" alt="Demo image 2" style="width: 100%;  height: auto;">
 </div>
