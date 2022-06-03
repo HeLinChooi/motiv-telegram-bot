@@ -23,4 +23,4 @@ Click [t.me/MotivUBot](https://t.me/MotivUBot) to start chatting with me!
 
 ### Credit
 Random pictures from https://picsum.photos  
-Random Quotes from https://devcenter.heroku.com/articles/nodejs-support#specifying-an-npm-version
+Random Quotes from https://parade.com/973277/jessicasager/inspirational-quotes/
